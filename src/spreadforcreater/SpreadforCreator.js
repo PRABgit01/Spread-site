@@ -2,6 +2,7 @@ import {
   CreatorStorcard,
   Desc,
   DescPara,
+  EmtyDiv,
   HeadingDiv,
   LargeDiv,
   LeftImageDiv,
@@ -22,21 +23,22 @@ export function SpreadforCreator() {
   return (
     <>
       <LargeDiv>
+
+      {/* ----this is image div right side  */}
         <RightSideDiveTOp>
           <SmallSizeimage src="https://spreadd.io/assets/home/left-dot-patch.svg"></SmallSizeimage>
         </RightSideDiveTOp>
-
         <HeadingDiv>
           <Subdiv>
             <LeftsideDiv>
-      <PinkLineDiv>100+ curated products</PinkLineDiv>
-
+              <PinkLineDiv>100+ curated products</PinkLineDiv>
               <WhiteCardDiv>
                 <PinkH1>100+</PinkH1>
                 <Desc>Happy Customers 😍</Desc>
               </WhiteCardDiv>
               <LeftSideImage src="https://spreadd.io/assets/home/iphone.png"></LeftSideImage>
             </LeftsideDiv>
+            <EmtyDiv></EmtyDiv>
             <RightsideDiv>
               <CreatorStorcard>Creator Store</CreatorStorcard>
               <TextDiv>
