@@ -17,8 +17,10 @@ export const MiddleSection = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 71px 0px 0px;
   @media (max-width: 700px) {
     flex-direction: column;
+    padding: 0px 0px 0px 0px;
   }
 `;
 
@@ -35,7 +37,7 @@ export const LeftDiv = styled.div`
   justify-content: center;
   align-items: flex-start;
   @media (max-width: 700px) {
-    padding: 9px 17px 62px 8px
+    padding: 7px 19px 64px 14px;
   }
 `;
 
@@ -51,21 +53,21 @@ export const CenterDiv = styled.div`
 `;
 
 export const RightImage = styled.img`
-  max-width: 280px;
+  max-width: 278px;
   z-index: 1;
   border-radius: 16px;
   @media (max-width: 700px) {
-    max-width: 192px;
+    max-width: 178px;
   }
 `;
 
 export const SmallCard = styled.div`
   position: absolute;
-  top: -22px;
-  right: -23px;
+  top: -15px;
+    right: -7px;
   background: rgb(254, 79, 82);
   border-radius: 3px;
-  padding: 10px;
+ padding: 7px 1px 5px 7px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -75,14 +77,20 @@ export const SmallCard = styled.div`
   color: white;
   @media (max-width: 700px) {
     padding: 11px 12px 11px 11px;
-    right: -32px;
+   right: -17px;
     width: 74%;
   }
 `;
 
 export const CardText =styled.span`
+font-size: 11px;
+    font-weight: 650;
+    line-height: 16px;
+    margin: 2px 0px 2px 0px;
 @media (max-width: 700px) {
-    font-size: 8px;
+    font-size: 5px;
+    line-height: 9px;
+    font-weight: 791;
   }
 `
 
@@ -111,8 +119,8 @@ export const RightDiv = styled.div`
 
 export const RightDivBefore = styled.img`
   position: absolute;
-  top: -26px;
-  left: 10%;
+  top: -20px;
+  left: 3%;
   width: 96px;
   height: 96px;
   z-index: 0;
@@ -126,7 +134,7 @@ export const RightDivAfter = styled.img`
   content: "";
   position: absolute;
   bottom: -18px;
-  left: 9%;
+  left: 3%;
   width: 90px;
   height: 57px;
   z-index: 1;
@@ -136,8 +144,8 @@ export const RightDivAfter = styled.img`
 `;
 
 export const ParaDiv = styled.div`
-  margin: 17px 0px;
-  line-height: 15px;
+  margin: 31px 0px;
+  line-height: 18px;
   border: 0px;
   vertical-align: baseline;
   @media (max-width: 700px) {
@@ -149,7 +157,7 @@ export const ParaDiv = styled.div`
 export const Description = styled.p`
   color: black;
   font-style: sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   @media (max-width: 700px) {
     font-size: 10px;
   }
@@ -168,7 +176,10 @@ export const ButtonDiv = styled.div`
   padding: 8px 12px;
   margin-bottom: 25px;
   width: max-content;
-  font-size: 10px;
+  font-size: 15px;
+  @media (max-width:700px) {
+   font-size: 10px; 
+  }
 `;
 
 export const Title = styled.span`

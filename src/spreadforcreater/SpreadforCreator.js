@@ -24,7 +24,6 @@ export function SpreadforCreator() {
     <>
       <LargeDiv>
 
-      {/* ----this is image div right side  */}
         <RightSideDiveTOp>
           <SmallSizeimage src="https://spreadd.io/assets/home/left-dot-patch.svg"></SmallSizeimage>
         </RightSideDiveTOp>

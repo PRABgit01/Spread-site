@@ -19,7 +19,10 @@ export const HeadingDiv = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 72px 0px 0px 0px;
+  padding: 0px 60px 0px 0px;
+  @media (max-width: 700px) {
+    padding: 0px 0px 0px 0px;
+  }
 `;
 
 export const LeftImageDiv = styled.div`
@@ -36,18 +39,18 @@ export const LeftsideDiv = styled.div`
   }
 `;
 export const RightsideDiv = styled.div`
-  max-width: 50%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  padding: 2px 0px 8px 3px;
-  flex-direction: column;
+ max-width: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 66px 0px 8px 4px;
+    flex-direction: column;
   @media (max-width: 700px) {
   max-width: 100%;
   }
 `;
 export const LeftSideImage = styled.img`
-  max-width: 525px;
+ max-width: 394px;
   width: 82%;
 
   @media screen {
@@ -57,7 +60,7 @@ export const LeftSideImage = styled.img`
 
 export const EmtyDiv = styled.div`
   width: 100px;
-  padding: 0px 69px 0px 19px;
+        padding: 0px 33px 0px 17px
 `;
 
 export const RightSideDiveTOp = styled.div`
@@ -75,7 +78,7 @@ export const PinkLineDiv = styled.div`
   width: 421%;
   max-width: 429%;
   position: relative;
-  left: -1436px;
+  left: -1256px;
   bottom: -359px;
   /* top: 20px; */
   background: linear-gradient(
@@ -91,18 +94,14 @@ export const PinkLineDiv = styled.div`
   padding: 33px 7px;
   z-index: 0;
   @media (max-width: 700px) {
-    /* top: 387px; */
-    /* left: -1442px;
-    font-size: 13px;
-    padding: 27px 7px;
-    line-height: 12px; */
+   
     display: none;
   }
 `;
 export const WhiteCardDiv = styled.div`
   position: absolute;
- right: 2px;
-    top: 61px;
+ right: -17px;
+    top: 64px;
   padding: 8px;
   background: white;
   box-shadow: 0px 0px 0px;
@@ -118,15 +117,15 @@ export const PinkH1 = styled.h1`
   font-size: 12.4px;
   line-height: 14px;
   color: rgb(255, 78, 83);
-  @media screen {
+  @media (max-width:700px) {
    font-size :10.4px ;
   line-height: 12px;
 
-  }
+  };
 `;
 
 export const CreatorStorcard = styled.div`
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
   color: black;
@@ -145,8 +144,8 @@ export const CreatorStorcard = styled.div`
 
 
 export const Desc = styled.p`
-  margin: 0px;
-  font-size: 13.4px;
+ margin: 0px;
+    font-size: 12.4px;
   @media (max-width: 700px) {
    font-size: 8.4px; 
   }
@@ -155,14 +154,14 @@ export const Desc = styled.p`
 export const TextDiv = styled.div`
   padding: 7px 1px 9px;
   @media (max-width: 700px) {
-   padding: 0px 10px 9px; 
+       padding: 0px 0px 9px;
   }
 `;
 
 export const DescPara = styled.p`
-font-size: 10px;
-padding: 6px;
-color:#212b36;
+font-size: 13px;
+    padding: 0px;
+    color: #212b36;
 `;
 
 export const TextStyle = styled.span`
